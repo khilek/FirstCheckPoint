@@ -15,13 +15,21 @@
   padding: 0;
 }
 
-.magic-card {
-  position: relative;
-  bottom: -15vh;
-}
 
-.magic-card-offset {
-  margin-top: 15vh;
+@media (max-width: 768px) {
+
+  .smaller-than-768 {
+    display: none;
+  }
+
+  .magic-card {
+    position: relative;
+    bottom: -15vh;
+  }
+
+  .magic-card-offset {
+    margin-top: 15vh;
+  }
 }
 
 .stars {
