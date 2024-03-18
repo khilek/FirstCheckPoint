@@ -9,6 +9,7 @@
   background-position: center;
 }
 
+/* FIXME add this to row that is holding magic card column */
 .containing-block {
   position: relative;
   min-height: 5vh;
@@ -16,13 +17,7 @@
 }
 
 
-@media (max-width: 768px) {
-
-  .smaller-than-768 {
-    display: none;
-  }
-}
-
+/* FIXME make this position absolute */
 .magic-card {
   position: relative;
   bottom: -15vh;
@@ -41,4 +36,15 @@
   font-family: "Rubik Bubbles", system-ui;
   font-weight: 400;
   font-style: normal;
+}
+
+@media (max-width: 768px) {
+
+  .smaller-than-768 {
+    display: none;
+  }
+
+  /* TODO target magic-card class, change position to unset */
+
+
 }
